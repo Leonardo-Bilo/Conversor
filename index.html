@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Conversor de Arquivos</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="container">
+      <h1>Conversor de Arquivos</h1>
+      <form id="uploadForm">
+         <div class="form-group">
+            <label for="formatSelect">Selecione o tipo de arquivo:</label>
+            <select id="formatSelect">
+               <option disabled selected value="">Arquivo</option>
+               <option value="image">Imagem</option>
+               <option value="video">Vídeo</option>
+               <option value="audio">Áudio</option>
+            </select>
+         </div>
+         <div id="specificFormat" class="form-group" style="display: none;">
+            <label for="specificSelect">Selecione o formato de saída:</label>
+            <select id="specificSelect"></select>
+         </div>
+         <div class="form-group">
+            <label for="fileInput">Escolher arquivo:</label>
+            <input type="file" id="fileInput" accept="image/*, video/*, audio/*">
+         </div>
+         <button type="submit" class="btn-convert">Converter</button>
+      </form>
+      <div id="result"></div>
+   </div>
+
+   <script src="script.js"></script>
+</body>
+</html>
