@@ -2,6 +2,10 @@ body {
     font-family: Arial, sans-serif;
     padding: 20px;
     background-color: #f2f2f2;
+    padding: 20px;
+   background-image: url(https://www.artdatacontabil.com.br/wp-content/themes/yootheme/cache/69/entenda-como-ocorre-o-cruzamento-de-dados-por-parte-do-fisco-6937b783.webp);
+   background-size: cover;
+   overflow: hidden;
  }
 
  .container {
